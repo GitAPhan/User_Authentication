@@ -2,3 +2,12 @@
 @import "global";
 @import "header";
 @import "footer";
+ 
+#color_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 90%;
+    margin: auto;
+    column-gap: 10px;
+    row-gap: 10px
+}
